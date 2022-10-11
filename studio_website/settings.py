@@ -16,7 +16,7 @@ import os
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["<ip_from_digital_ocean>",]
+ALLOWED_HOSTS = ["143.110.247.4",]
 
 ROOT_URLCONF = f'{config("PROJECT_NAME")}.urls'
 
@@ -32,9 +32,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%!==)%$%)pjmm4_a)knjeemd**5jmn-!_!_5she+2c%9yzcmxp'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 
 # Application definition
@@ -161,5 +158,5 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'CodingWithMitch Team <noreply@codingwithmitch.com>'
 
 
-BASE_URL = "http://<ip_from_digital_ocean>"
+BASE_URL = "http://143.110.247.4"
 
