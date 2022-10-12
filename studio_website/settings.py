@@ -16,7 +16,7 @@ import os
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["143.110.247.4",]
+ALLOWED_HOSTS = ["143.110.247.4", "studio-script.net", "www.studio-script.net"]
 
 ROOT_URLCONF = f'{config("PROJECT_NAME")}.urls'
 
