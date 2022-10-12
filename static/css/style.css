@@ -158,10 +158,6 @@ pre {
 figure {
 	margin: 0 0 1rem; }
 
-img {
-	vertical-align: middle;
-	border-style: none; }
-
 svg {
 	overflow: hidden;
 	vertical-align: middle; }
@@ -1404,16 +1400,6 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	color: #262626; }
-
-img {
-	border: none;
-	height: auto;
-	max-width: 100%;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	-ms-user-select: none;
-	    user-select: none; }
 
 a {
 	text-decoration: none;
