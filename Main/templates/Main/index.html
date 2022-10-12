@@ -1429,6 +1429,16 @@ body {
 	overflow-y: auto;
 	color: #262626; }
 
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	    user-select: none; }
+
 a {
 	text-decoration: none;
 	color: #11d5ed;
@@ -4972,11 +4982,14 @@ a img.aligncenter {
 				<div class="container hero__container">
 					<div class="col">
 						<div class="hero__text-content-wrap">
-							<div id="animation" class="hero__text-content">
+							<div style="width:100vw;" class="hero__text-content">
+								<video id="vid" autoplay muted>
+									<source src="{% static 'video/intro.mp4' %}">
+								</video>
 							</div>
 						</div>
 					</div>
-					<div class="row hero__bottom-row align-self-center"">
+					<div class="row hero__bottom-row align-self-center">
 						<div class="col d-md-block d-none">
 							<div class="">
 								<a style="cursor:pointer;" id='offre' class="title-link animate-letters">Notre offre</a>
